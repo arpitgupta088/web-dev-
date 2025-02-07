@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow and text shadow</title>
+</head>
+<style>
+    .container{
+        display:flex;    
+    }
+    .card{
+        padding:23px 12px;
+        border:2px solid red;
+        margin:23px 12px;
+        background-color: burlywood;
+        box-shadow: 10px 13px green;
+        /* box-shadow: -10px -13px green;  agar shadow upar bnani hai to */
+        /* box-shadow: 10px 13px 12px;  3rd wali blur radius hai */
+        /* box-shadow: 3px 5px green 20px 8px red;  multi shadows */
+    }
+
+    .card h2{
+        text-shadow: 3px 4px brown;
+        /* text-shadow: 2px 3px 4px red; */
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">             <!--div.card#card-$*3 -->
+            <h2>Card1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officia eveniet tempore placeat alias rem?</p>
+        </div>                                      
+        <div class="card" id="card-2">
+            <h2>Card2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel doloremque tenetur molestiae, hic veniam inventore.</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>Card3</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente tenetur neque molestiae qui voluptates voluptas?</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms and input tage</title>
+ </head>
+ <body>
+    <h1>forms and input tags</h1>
+    <form action="backend.php">
+        <!-- div is used to change the line of text -->
+        <div> 
+            name: <input type="text" name="myname">
+        </div>
+        <br>
+        <div>
+            role: <input type="text" roleName="myrole">
+        </div>
+        <div>
+            email: <input type="text" emailName="myemail">
+        </div>
+        <div>
+            Date: <input type="date" Name="mydate">
+        </div>
+        <div>
+            Are u eligible?: <input type="checkbox" Name="mycheck">
+        </div>
+        <div>
+            Gender: male <input type="radio" Name="mygender"> female <input type="radio" name="mygender"> 
+        </div>
+        <div>
+            write about you <br> <textarea name="mytext" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf" selected>Swift</option>
+            </select>
+        </div>
+        <div>
+            <input type ="submit" value="Submit now">
+            <input type ="reset" value="reset now">
+        </div>
+    </form>
+ </body>
+ </html>  

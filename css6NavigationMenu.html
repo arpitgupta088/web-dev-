@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation menu</title>
+</head>
+<style>
+    .navbar{
+        background-color: rgb(178, 178, 210);
+        border-radius: 3px;
+    }
+    .navbar ul{
+        overflow:auto;      
+        /* isse hamara background hatega nahi */
+    }
+    .navbar li{
+        float:left;
+        list-style: none;
+        margin: 15px 21px;
+    }
+    .navbar li a{
+    padding: 3px 3ps;
+    color:Brown;
+    }
+    .search{
+        float:right;
+        color:white;
+        padding:13px 75px;
+    }
+    .navbar input{
+        border: 2px solid black;
+        border-radius: 3px;
+    }
+    body{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52qqyY2Mosgxt-Pt00pZy4TqIhCanFTwyLwC-D0z5&s');
+        background-size: cover;
+    }
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search this website">
+                </div>
+            </ul>
+            </nav>
+    </header>
+    
+</body>
+</html>

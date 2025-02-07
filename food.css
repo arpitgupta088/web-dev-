@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(19, 19, 15);
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+nav h1{
+    font-size: 40px;
+    color: yellow;
+    border-bottom: 5px solid red;
+    border-radius: 20px;
+}
+
+ul{
+    display:flex;
+}
+
+ul li{
+    list-style:none;
+    margin-inline: 32px;
+}
+.btn button{
+width: 100px;
+height:40px;
+border: 2px solid rgb(177, 31, 31);
+background-color: rgb(54, 34, 165);
+color: white;
+border-radius: 10px;
+margin-top:10px;
+}
+p{
+    font-size: 25px;
+    color:white;
+    margin-bottom: 20px;
+    margin-left: 20px
+}
+
+.search{
+    margin-top: 20px;
+}
+
+.main .head{
+    margin-left: 30px;
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.beast button{
+    font-size: 20px;
+    background-color: rgb(39, 166, 229);
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+.beast button:hover{
+    cursor: pointer;
+    border: 3px solid black;
+}
+.img img{
+    margin-right: 30px;
+    width:500px;
+}
+.head h2{
+    margin-left: 40px;
+}
+
+.nav .images{
+    display:flex;
+    justify-content:space-evenly ;
+    margin-inline: 32px;
+}
+
+.list ul li{
+    display:flex;
+    list-style: none;
+    justify-content:space-between;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-inline: 80px;
+    color: aliceblue;
+}
+    
+.container{
+    height:300px top;
+    width:93%;
+    border:2px solid yellow;
+    flex-wrap: wrap;
+}
+
+/* services section */
+#services{
+    margin:34px;
+    display:flex;
+}
+#services.box{
+    border:10px solid white;
+
+}
+#services.box img{
+   height:30px;
+   margin: auto;
+   display:block;
+   size: 10px 20px;
+}
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    color: aquamarine;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+    color: yellow;
+    display: flex;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+.services-container{
+    border: 2px solid white;
+}
+
+#services .box{
+    border: 1.5px solid white;
+    margin: 8px;
+    border-radius: 10px;
+    border-color: rgb(36, 143, 36);
+    background-color: rgb(212, 172, 196);
+    
+}
+.section h1{
+    color: white;;
+}
+#services .box p{
+    color:rgb(12, 0, 0)
+}
