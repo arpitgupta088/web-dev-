@@ -16,3 +16,4 @@ console.log("2" === 2);  //false
 // but 
 console.log("2"== 2);  //true
 
+                

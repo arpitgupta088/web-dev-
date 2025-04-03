@@ -24,6 +24,7 @@ let valueInNum = Number(sc)
 console.log(valueInNum);  // NaN b/c string containing alphabets 
 // cannot be converted to nmber
 
+
 //--- can be converted to boolean, string etc in same way
 
 //-------------------------

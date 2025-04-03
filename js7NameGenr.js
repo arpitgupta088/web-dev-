@@ -15,7 +15,7 @@ else{
 
 //generate second word
 rand = Math.random()
-console.log(rand)
+console.log(rand) 
 
 if(rand<0.33){
     second = "engine"
